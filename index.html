@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -8,104 +8,7 @@
 <link rel="stylesheet" href="//cdn.bootcss.com/zui/1.8.1/css/zui.min.css">
 <!-- ZUI Javascript 依赖 jQuery -->
 
-<!-- ZUI 标准版压缩后的 JavaScript 文件 -->
-<script src="//cdn.bootcss.com/zui/1.8.1/js/zui.min.js"></script>
-<script>
-        if (window != top)
-            top.location.replace(location.href);
-            //同理if (window != top) top.location.href = location.href;
-    </script>
-    <link rel="stylesheet" href="css/modalone.css" />
-	</head>
-	<body>
-		<div class="login-wrapper">
-			<!--页面头部-->
-			<div class="login-header" >
-				<h1 style="color: white;"><img src="img/logo.png">Happy Login</h1> 
-			</div>
-			<!--页面主体-->
-			<div class="login-body" align="middle">
-				<div class="body-content" >
-					<div class="body-content-header">
-				<h3 style="margin-left: 230px;"><i class="icon icon-cogs"></i>
-						<label>用户登录</label></h3>
-					</div>
-					<!--登录表单-->
-				<form class="form-horizontal"><hr />
-					<div class="form-group"> 
-						
-						<label for="number" class="col-md-2">账号</label>
-						<div class="col-md-7 col-sm-10">
-						<input type="text" id="number" class="form-control" placeholder="电子邮件/手机号/用户名" required="required" oninvalid="setCustomValidity('未填写账号')"oninput="setCustomValidity('')">
-					</div>
-					</div>
-				<div class="form-group"> 
-						<label for="Password" class="col-md-2">密码</label>
-						<div class="col-md-7 col-sm-10">
-						<input type="password" id="Password" class="form-control" placeholder="密码" required="required" oninvalid="setCustomValidity('请填写密码')" oninput="setCustomValidity('')" >
-					</div>
-					</div>	
-					<div class="form-group">
-						<!--<label for="Verify" class="col-md-3">验证码</label>-->
-						<div class="icon icon-bell-alt col-md-11 col-sm-6 " style="width: 100%;">
-							<input type="text" id="Verify" placeholder="验证码" required="required" oninvalid="setCustomValidity('请输入验证码')" oninput="setCustomValidity('')"/><img class="login-verify" src="img/express.gif" alt="验证码" style="float: right;margin-right: 4px;" title="点击更换验证码"/></div>
-					</div>
-				<div class="form-group">
-					<div class="col-sm-offset-2 col-sm-10">
-						<div class="checkbox">
-							<label style="margin-left:-50px;">
-								<p><input type="checkbox" >自动登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" >记住我</p>
-							</label>
-						</div>
-							
-						</div class="body-content-others">
-						<p><a href="javascript:;"style="float: left;margin-left: 30px;" >账号注册
-						<a href="javascript:;" style="float: right;margin-right: 30px;">忘记密码？</p>
-				</div>
-				
-				<div class="form-group">
-					<div class="col-sm-offset-2 col-sm-10" style="text-align: center;">
-						<button type="submit" id="btn" class="btn btn-block btn-primary" formmethod="post" data-loading-text="正在登录中...">登录</button>
-						</div>
-						
-				</div>
-			</form>
-			<div class="body-content-footer">
-				
-				<label class="Label" >第三方登录</label>
-			<a href="###" ><img src="img/sina.png" alt="新浪" style="width: 34px;height: 28px;"/></a>	
-			
-			<a href="###" ><img src="img/wechat.png" alt="微信" style="width: 34px;height: 28px;"/></a>
-			<a href="###"><img src="img/qq.png" alt="扣扣" style="width: 34px;height: 29px;" /></a>
-			</div>
-			</div>
-	</div>
-	<!--页面底部-->
-		<div class="login-footer" >
-			<p><div class="footer-content" ><h4 style="color: white;"><span>&copy;2018&nbsp;<a href="#"style="color: white;"> HappyLogin版权所有</a></h4></span><br /></p>
-
-			<h4><p ><a href="https://www.baidu.com"style="color: white;">前往百度&nbsp;&nbsp;</a><a href="https://www.sougou.ucom"style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;前往搜狗&nbsp;&nbsp;</a><a href="###" style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;文档说明</a></p></h4>
-		</div></div>
-	</div>
-	<script>
-		// 图形验证码
-        $('.login-verify').click(function () {
-            this.src ="https://wxlims.cuuedu.cn/Login/VerifyCode";
-
-        });
-
-	</script>
-	<script>
-	$('#loadingBtnExample').on('click', function() {
-var $btn = $(this);
-$btn.button('loading');
-
-// 此处使用 setTimeout 来模拟你的复杂功能逻辑
-setTimeout(function() {
-    $btn.button('reset');
-}, 4000);
-});
+<!
 	</script>
 	</body>
 </html>
